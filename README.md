@@ -4,36 +4,31 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  My Gatsby starter
 </h1>
+<p align="center">with TS and Styled Component</p>
 
-## 🚀 Quick start
+## 🚀 Start
 
-1.  **Create a Gatsby site.**
+1.  **Develop types.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+  Gatsby have it's own secure system, so there is two type to start develop mode
 
+  * only on this device
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
     npm run develop
     ```
+  * on all device in local network
+    ```shell
+    npm run develop:e
+    ```
 
-3.  **Open the code and start customizing!**
+2. **Included addons**
+  * [typescript](https://github.com/microsoft/TypeScript)
+  * [styled-components](https://github.com/styled-components/styled-components)
+  * gatsby plugins for work with images
 
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
+3.  **Gatsby Side Links**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
