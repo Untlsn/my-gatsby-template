@@ -1,0 +1,33 @@
+{
+  "name": "CountList",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "Untlsn",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "develop:e": "gatsby develop -H 0.0.0.0",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@types/react-responsive": "^8.0.2",
+    "@types/styled-components": "^5.1.7",
+    "babel-plugin-styled-components": "^1.12.0",
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-sharp": "^2.13.3",
+    "gatsby-plugin-styled-components": "^3.9.0",
+    "gatsby-source-filesystem": "^2.10.0",
+    "gatsby-transformer-sharp": "^2.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-responsive": "^8.2.0",
+    "styled-components": "^5.2.1",
+    "typescript": "^4.1.3"
+  }
+}
